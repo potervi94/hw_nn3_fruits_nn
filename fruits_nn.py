@@ -217,8 +217,8 @@ def main():
     plot_training_history(history)
     
     # Save model
-    model.save('fruits_model.h5')
-    print("\nModel saved as 'fruits_model.h5'")
+    model.save('fruits_model.keras')
+    print("\nModel saved as 'fruits_model.keras'")
     
     print("\n" + "=" * 60)
     print("Training complete!")
